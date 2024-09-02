@@ -1,0 +1,50 @@
+body{
+  background-image: url(12.jpg);
+  background-repeat: no-repeat; /* 이미지를 반복하지 않음 */
+  background-size: cover; /* 배경 이미지를 화면에 맞게 조정 */
+  background-position: center; /* 배경 이미지의 위치를 중앙으로 설정 */
+  
+}
+
+li:hover {
+  transform: scale(1.1);
+  color: #fff;
+  box-shadow: 0px 26px 56px 0px rgba(0, 0, 0, 0.10), 0px 102px 102px 0px rgba(0, 0, 0, 0.09), 0px 230px 138px 0px rgba(0, 0, 0, 0.05), 0px 410px 164px 0px rgba(0, 0, 0, 0.01), 0px 640px 179px 0px rgba(0, 0, 0, 0.00);
+  border: thick #74404b;
+  border-radius: 15%;
+}
+
+.bbb{
+  border: thick double #5b9467;
+  border-radius: 15%;
+}
+
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.mother {
+  display: flex;
+  justify-content: center;
+}
+.sun{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sun2{
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.pen{
+  font-family: "Nerko One",cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: #6d2e41;
+  font-size: 19px;
+  }
+
+    
